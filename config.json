@@ -1,0 +1,411 @@
+{
+  "app": {
+    "name": "Kushi Cabs",
+    "description": "Your Reliable Ride Partner - Seamless mobility connecting drivers, vendors, and passengers",
+    "version": "2.1",
+    "author": "Kushi Cabs",
+    "lastUpdated": "June 2026",
+    "releaseDate": "June 2026"
+  },
+  
+  "website": {
+    "title": "Kushi Cabs - Your Reliable Ride Partner",
+    "url": "https://www.kushicabs.com",
+    "language": "en",
+    "charset": "UTF-8",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+
+  "googlePlayStore": {
+    "packageName": "com.kushicabs.app",
+    "compliance": {
+      "privacyPolicy": {
+        "required": true,
+        "url": "https://www.kushicabs.com/pages/privacy.html",
+        "status": "✅ COMPLIANT",
+        "details": {
+          "dataCollection": "Comprehensive list of all data collected",
+          "dataUsage": "Clear explanation of how data is used",
+          "userRights": "Full disclosure of user rights including deletion",
+          "thirdParty": "All third-party services disclosed",
+          "children": "Clear statement about 18+ age requirement",
+          "retention": "Data retention timelines specified",
+          "contact": "Data Protection Officer contact provided"
+        }
+      },
+      
+      "accountDeletion": {
+        "required": true,
+        "url": "https://www.kushicabs.com/pages/delete-account.html",
+        "status": "✅ COMPLIANT",
+        "details": {
+          "mechanism": "Easy in-app deletion process",
+          "steps": "Step-by-step deletion instructions",
+          "alternatives": "Email-based deletion option provided",
+          "obstacles": "No unnecessary confirmation steps",
+          "timeline": "Clear deletion timeline (24 hours to 30 days)",
+          "contact": "Multiple support contact options",
+          "faq": "FAQ addressing common concerns"
+        }
+      },
+
+      "termsAndConditions": {
+        "required": true,
+        "url": "https://www.kushicabs.com/pages/terms.html",
+        "status": "✅ COMPLIANT"
+      },
+
+      "cancellationPolicy": {
+        "required": true,
+        "url": "https://www.kushicabs.com/pages/cancellation.html",
+        "status": "✅ COMPLIANT"
+      },
+
+      "refundPolicy": {
+        "required": true,
+        "url": "https://www.kushicabs.com/pages/refund.html",
+        "status": "✅ COMPLIANT"
+      },
+
+      "safetyGuidelines": {
+        "required": false,
+        "url": "https://www.kushicabs.com/pages/safety.html",
+        "status": "✅ INCLUDED"
+      }
+    }
+  },
+
+  "compliance": {
+    "accessibility": {
+      "standard": "WCAG 2.1 Level AA",
+      "status": "✅ COMPLIANT",
+      "features": [
+        "Semantic HTML5 structure",
+        "Proper heading hierarchy",
+        "Color contrast compliance (4.5:1 for text)",
+        "Keyboard navigation support",
+        "Focus indicators on all interactive elements",
+        "Skip navigation links",
+        "Screen reader optimization",
+        "Form labels and error messages",
+        "Alt text for images",
+        "Mobile responsive design"
+      ]
+    },
+
+    "legal": {
+      "standards": [
+        "✅ Google Play Store Developer Policy",
+        "✅ GDPR (General Data Protection Regulation)",
+        "✅ India's Information Technology Act, 2000",
+        "✅ Reserve Bank of India Guidelines",
+        "✅ Consumer Protection Act, 2019",
+        "✅ WCAG 2.1 Accessibility Standards"
+      ]
+    },
+
+    "dataProtection": {
+      "encryption": "HTTPS ready",
+      "authentication": "OTP-based with verification",
+      "storage": "Supabase PostgreSQL (encrypted)",
+      "dataRetention": "Clear policies for each data type",
+      "thirdParties": "Supabase, Google Maps, Razorpay, STPL SMS"
+    }
+  },
+
+  "pages": {
+    "home": {
+      "path": "/index.html",
+      "title": "Kushi Cabs - Your Reliable Ride Partner",
+      "sections": [
+        "Header & Navigation",
+        "Hero Section",
+        "About Overview",
+        "Key Features (Drivers, Vendors, Admins)",
+        "User Roles & Permissions",
+        "Technical Specifications",
+        "Device Requirements",
+        "Download Section",
+        "Footer"
+      ]
+    },
+
+    "privacy": {
+      "path": "/pages/privacy.html",
+      "title": "Privacy Policy - Kushi Cabs",
+      "sections": [
+        "Introduction",
+        "Information We Collect",
+        "How We Use Your Information",
+        "Data Security",
+        "Your Rights",
+        "Data Retention",
+        "Third-Party Services",
+        "Children's Privacy",
+        "International Data Transfers",
+        "Changes to This Policy",
+        "Contact Information"
+      ]
+    },
+
+    "deleteAccount": {
+      "path": "/pages/delete-account.html",
+      "title": "Delete Account - Kushi Cabs",
+      "sections": [
+        "Important Information",
+        "What Happens When You Delete",
+        "Data Removal Timeline",
+        "Before You Delete",
+        "How to Delete Your Account",
+        "After Successful Deletion",
+        "Frequently Asked Questions",
+        "Legal & Compliance Information",
+        "Contact Information"
+      ]
+    },
+
+    "terms": {
+      "path": "/pages/terms.html",
+      "title": "Terms & Conditions - Kushi Cabs",
+      "sections": [
+        "Agreement to Terms",
+        "User Eligibility",
+        "Account Registration",
+        "User Responsibilities",
+        "Payment Terms",
+        "Liability Limitations",
+        "Suspension and Termination",
+        "Dispute Resolution"
+      ]
+    },
+
+    "cancellation": {
+      "path": "/pages/cancellation.html",
+      "title": "Cancellation Policy - Kushi Cabs",
+      "sections": [
+        "Driver Cancellation",
+        "Vendor Cancellation",
+        "Cancellation Charges Breakdown",
+        "Dispute Resolution",
+        "Special Circumstances"
+      ]
+    },
+
+    "refund": {
+      "path": "/pages/refund.html",
+      "title": "Refund Policy - Kushi Cabs",
+      "sections": [
+        "Refundable Scenarios",
+        "Refund Timeline",
+        "Refund Methods",
+        "Partial Refunds",
+        "Dispute Resolution Process"
+      ]
+    },
+
+    "safety": {
+      "path": "/pages/safety.html",
+      "title": "Safety Guidelines - Kushi Cabs",
+      "sections": [
+        "Platform Safety Commitment",
+        "Behavior Standards",
+        "Driver Safety Responsibilities",
+        "Vendor Safety Responsibilities",
+        "Reporting Unsafe Behavior",
+        "Investigation Process",
+        "Account Security",
+        "Emergency Contacts"
+      ]
+    }
+  },
+
+  "navigation": {
+    "mainMenu": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Features",
+        "href": "#features"
+      },
+      {
+        "label": "Technology",
+        "href": "#tech-stack"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "/pages/privacy.html"
+      },
+      {
+        "label": "Delete Account",
+        "href": "/pages/delete-account.html"
+      }
+    ],
+
+    "footerLinks": {
+      "legal": [
+        {
+          "label": "Privacy Policy",
+          "href": "/pages/privacy.html"
+        },
+        {
+          "label": "Terms & Conditions",
+          "href": "/pages/terms.html"
+        },
+        {
+          "label": "Cancellation Policy",
+          "href": "/pages/cancellation.html"
+        },
+        {
+          "label": "Refund Policy",
+          "href": "/pages/refund.html"
+        }
+      ],
+
+      "resources": [
+        {
+          "label": "Safety Guidelines",
+          "href": "/pages/safety.html"
+        },
+        {
+          "label": "Delete Account",
+          "href": "/pages/delete-account.html"
+        },
+        {
+          "label": "Contact Support",
+          "href": "mailto:support@kushicabs.com"
+        }
+      ]
+    }
+  },
+
+  "contact": {
+    "support": "support@kushicabs.com",
+    "privacy": "privacy@kushicabs.com",
+    "emergency": "emergency@kushicabs.com",
+    "phone": "+91 XXXXXXXXXX",
+    "responseTime": "24/7 support",
+    "dataProtectionOfficer": "kushicabs77@gmail.com"
+  },
+
+  "features": {
+    "drivers": [
+      "Easy Sign-Up & Verification",
+      "Real-Time Trip Management",
+      "Secure Wallet System",
+      "Performance Dashboard",
+      "Self-Verification",
+      "Emergency Support",
+      "Delete Account",
+      "Multiple Payment Methods"
+    ],
+
+    "vendors": [
+      "Company Management",
+      "Trip Creation",
+      "Earnings Tracking",
+      "Document Verification",
+      "Advanced Analytics",
+      "Wallet Management",
+      "Delete Account"
+    ],
+
+    "admins": [
+      "User Management",
+      "Dummy Driver Creation",
+      "Policy Management",
+      "Dashboard Analytics",
+      "Commission Control",
+      "Emergency Access"
+    ]
+  },
+
+  "technology": {
+    "frontend": {
+      "framework": "React Native",
+      "version": "19.1.0",
+      "platform": "Expo"
+    },
+
+    "backend": {
+      "runtime": "Node.js",
+      "framework": "Express"
+    },
+
+    "database": {
+      "service": "Supabase PostgreSQL",
+      "features": "Real-time capabilities"
+    },
+
+    "thirdParty": [
+      {
+        "name": "Google Maps API",
+        "purpose": "Navigation and location services"
+      },
+      {
+        "name": "Razorpay",
+        "purpose": "Payment processing"
+      },
+      {
+        "name": "STPL SMS",
+        "purpose": "OTP and authentication"
+      },
+      {
+        "name": "Supabase Storage",
+        "purpose": "Document and media storage"
+      }
+    ]
+  },
+
+  "deployment": {
+    "hosting": [
+      "Vercel",
+      "Netlify",
+      "AWS S3 + CloudFront",
+      "Google Cloud",
+      "Any HTTPS-enabled hosting"
+    ],
+    "requirements": [
+      "HTTPS enabled",
+      "Security headers configured",
+      "Cache headers optimized",
+      "Search engine indexing enabled"
+    ]
+  },
+
+  "testing": {
+    "accessibility": [
+      "WAVE accessibility checker",
+      "Color contrast verification",
+      "Keyboard navigation testing",
+      "Screen reader testing (NVDA, JAWS)",
+      "Mobile responsiveness testing"
+    ],
+
+    "functionality": [
+      "Link verification",
+      "Form submission",
+      "Mobile navigation",
+      "Cross-browser compatibility",
+      "Load time optimization"
+    ],
+
+    "compliance": [
+      "Privacy Policy review",
+      "Account deletion testing",
+      "Terms & Conditions accuracy",
+      "Contact information verification",
+      "Third-party link verification"
+    ]
+  },
+
+  "metadata": {
+    "created": "June 2026",
+    "lastUpdated": "June 2026",
+    "version": "2.1",
+    "status": "Ready for Google Play Store",
+    "complianceStatus": "✅ FULLY COMPLIANT",
+    "accessibilityLevel": "WCAG 2.1 Level AA"
+  }
+}
